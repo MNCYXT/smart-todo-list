@@ -1,0 +1,25 @@
+{
+  "name": "smart-todo-list",
+  "version": "1.0.0",
+  "description": "智能待办清单应用",
+  "type": "module",
+  "homepage": "https://MNCYXT.github.io/smart-todo-list",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "echarts": "^5.4.0",
+    "element-plus": "^2.3.0",
+    "pinia": "^2.1.0",
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^4.3.0"
+  }
+}
